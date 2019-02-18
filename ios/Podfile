@@ -6,7 +6,7 @@ target 'RNNotificationBanner' do
   use_frameworks!
 
   # Pods for RNNotificationBanner
-  pod 'BRYXBanner', :git => 'https://github.com/prscX/BRYXBanner.git'
+  pod 'BRYXBanner', :git => 'https://github.com/zloybest/BRYXBanner.git'
 
   post_install do |installer|
     installer.pods_project.targets.each do |target|
